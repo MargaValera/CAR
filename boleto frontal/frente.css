@@ -65,11 +65,8 @@
   height: 90px;
   width: 170px;
 }
-/* #main {
-  position: relative;
-} */
 
-#derecha::before {
+#izquierda::before {
   content: '';
   position: absolute;
   top: 0;
@@ -94,6 +91,7 @@ h1 {
 
 div > #izquierda {
   width: 30%;
+  position: relative;
 }
 
 #title {
@@ -126,6 +124,7 @@ section {
   display: flex;
   align-items: center;
   height: 145px;
+  position: relative;
 }
 .brandName {
   width: auto;
